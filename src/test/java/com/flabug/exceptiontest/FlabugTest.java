@@ -1,6 +1,8 @@
 package com.flabug.exceptiontest;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+
+import com.mycompany.app.Objects;
 
 import org.junit.Test;
 
@@ -13,5 +15,14 @@ public class FlabugTest {
 		b= (b == a) ? null:"hi";
 		System.out.println(b.toString());
 	}
+	
+	@Test
+	public void FactoryTest(){
+		String obj = Objects.Factory();
+		String obj2 =  Objects.Factory();
+
+	    assertEquals(obj, obj2);
+	}
+
 
 }
