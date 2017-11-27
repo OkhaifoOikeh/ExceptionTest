@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="com.flabug.exceptiontest.FlabugTest" time="0.004" errors="1" skipped="0">
+<testsuite tests="2" failures="0" name="com.flabug.exceptiontest.FlabugTest" time="0.005" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -63,9 +63,9 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.flabug.exceptiontest.FlabugTest" name="FlakyExceptionTest" time="0.004">
+  <testcase classname="com.flabug.exceptiontest.FlabugTest" name="FlakyExceptionTest" time="0.005">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.flabug.exceptiontest.FlabugTest.FlakyExceptionTest(FlabugTest.java:16)
+	at com.flabug.exceptiontest.FlabugTest.FlakyExceptionTest(FlabugTest.java:14)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

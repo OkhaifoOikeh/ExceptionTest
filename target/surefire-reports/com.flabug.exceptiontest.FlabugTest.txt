@@ -1,10 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: com.flabug.exceptiontest.FlabugTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.033 sec <<< FAILURE!
-FlakyExceptionTest(com.flabug.exceptiontest.FlabugTest)  Time elapsed: 0.004 sec  <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.029 sec <<< FAILURE!
+FlakyExceptionTest(com.flabug.exceptiontest.FlabugTest)  Time elapsed: 0.005 sec  <<< ERROR!
 java.lang.NullPointerException
-	at com.flabug.exceptiontest.FlabugTest.FlakyExceptionTest(FlabugTest.java:16)
+	at com.flabug.exceptiontest.FlabugTest.FlakyExceptionTest(FlabugTest.java:14)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

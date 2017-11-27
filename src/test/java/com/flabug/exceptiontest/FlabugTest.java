@@ -1,9 +1,7 @@
 package com.flabug.exceptiontest;
 
 import static org.junit.Assert.assertEquals;
-
 import com.mycompany.app.Objects;
-
 import org.junit.Test;
 
 public class FlabugTest {
